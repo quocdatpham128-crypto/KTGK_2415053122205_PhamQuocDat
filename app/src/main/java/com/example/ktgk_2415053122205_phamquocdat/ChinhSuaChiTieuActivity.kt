@@ -1,4 +1,4 @@
-package com.example.ktgk_2415053122205.phamquocdat
+package com.example.ktgk_2415053122205_phamquocdat
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.ktgk_2415053122205_phamquocdat.R
 
 class ChinhSuaChiTieuActivity : AppCompatActivity() {
 
