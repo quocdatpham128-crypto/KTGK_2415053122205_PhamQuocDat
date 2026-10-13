@@ -1,4 +1,5 @@
-package com.example.ktgk_2415053122205.phamquocdat
+package com.example.ktgk_2415053122205_phamquocdat
+
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +9,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-
+import com.example.ktgk_2415053122205_phamquocdat.R
 class MainActivity : AppCompatActivity() {
 
     private lateinit var edtTenKhoanChi_205: EditText

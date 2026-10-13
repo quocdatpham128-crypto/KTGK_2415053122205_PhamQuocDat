@@ -1,4 +1,4 @@
-package com.example.ktgk_2415053122205.phamquocdat
+package com.example.ktgk_2415053122205_phamquocdat
 
 import java.io.Serializable
 

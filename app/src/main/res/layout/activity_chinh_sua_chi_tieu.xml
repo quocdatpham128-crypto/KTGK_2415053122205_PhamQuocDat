@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#F0F2F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✏️ CHỈNH SỬA KHOẢN CHI"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#6200EE"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/edtSuaTen_205"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Tên khoản chi"
+                android:inputType="text"
+                android:paddingHorizontal="16dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/edtSuaSoTien_205"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Số tiền"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="16dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/edtSuaGhiChu_205"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Ghi chú"
+                android:inputType="text"
+                android:paddingHorizontal="16dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginBottom="12dp" />
+
+            <CheckBox
+                android:id="@+id/chkSuaTrangThai_205"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đã thanh toán"
+                android:textSize="15sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLuu_205"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Lưu thay đổi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnHuy_205"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Hủy"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#E53935"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
