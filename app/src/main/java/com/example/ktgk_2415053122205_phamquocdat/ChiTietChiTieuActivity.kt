@@ -1,3 +1,4 @@
+
 @file:Suppress("PropertyName", "PrivatePropertyName", "VariableNaming", "LocalVariableName", "FunctionName")
 
 package com.example.ktgk_2415053122205_phamquocdat
@@ -10,14 +11,11 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.IntentCompat
-
 class ChiTietChiTieuActivity : AppCompatActivity() {
-
     private lateinit var txtThongTinChiTiet_205: TextView
     private lateinit var btnSuaKhoanChi_205: Button
     private lateinit var btnQuayLai_205: Button
     private var khoanChi_205: KhoanChi_205? = null
-
     private val nhanKetQuaSua_205 = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult(),
     ) { result ->

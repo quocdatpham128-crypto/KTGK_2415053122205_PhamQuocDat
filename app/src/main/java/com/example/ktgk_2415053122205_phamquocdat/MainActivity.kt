@@ -1,4 +1,4 @@
-package com.example.ktgk_2415053122205_phamquocdat
+package com.example.ktgk_2415053122205.phamquocdat
 
 
 import android.content.Intent
